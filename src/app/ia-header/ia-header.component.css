@@ -1,0 +1,37 @@
+.ia-index-header {
+  width: 100%;
+  height: 15vh;
+  background-color: #0570AD;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ia-index-header--title {
+  font-size: 42px;
+  color: #FFFF;
+}
+
+.ia-index-subheader {
+  width: 100%;
+  background-color: #6B6B6B;
+  align-self: flex-end;
+}
+
+.ia-index-header--button {
+  border: none;
+  color: #FFFFFF;
+  font-size: 24px;
+  border-radius: 0 0 5px 5px;
+  width: 100px;
+  background-color: #00466E;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.ia-index-header--button--active {
+  color: #00466E;
+  background-color: #00A2FF;
+}
