@@ -12,3 +12,7 @@
   font-size: 42px;
   color: #FFFF;
 }
+
+.ia-index-header--title:hover {
+  text-underline: none;
+}
