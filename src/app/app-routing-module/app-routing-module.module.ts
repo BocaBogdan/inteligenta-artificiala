@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 import { A1PageComponent } from '../pages/A/a1-page/a1-page.component';
+import { A4PageComponent } from '../pages/A/a4-page/a4-page.component';
 import { B1PageComponent } from '../pages/B/b1-page/b1-page.component';
 import { HomeComponent } from '../pages/home/home.component';
 import { B2PageComponent } from '../pages/B/b2-page/b2-page.component';
@@ -14,6 +15,7 @@ import { B7PageComponent } from '../pages/B/b7-page/b7-page.component';
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'a1', component: A1PageComponent },
+  { path: 'a4', component: A4PageComponent },
   { path: 'b1', component: B1PageComponent },
   { path: 'b2', component: B2PageComponent },
   { path: 'b3', component: B3PageComponent },
