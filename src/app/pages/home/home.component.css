@@ -1,23 +1,29 @@
 .home-container {
-  padding-top: 100px;
-  background-color: #0D0F0E;
-  height: 2000px;
+  position: relative;
+  margin: 0 auto;
+  padding: 100px 0;
+  background: linear-gradient(0deg, grey, black 60%);
+  height: auto;
 }
 
 .home-header {
   display: flex;
 }
 
+.image-container {
+  width: 50%;
+  text-align: center;
+}
+
 .home-image {
   object-fit: cover;
-  margin-left: 100px;
   height: 400px;
   width: auto;
 }
 
 .home-title {
   margin: auto 0;
-  border-top: 1px solid white;
+  border-top: 1px solid paleturquoise;
   position: relative;
   font-size: 32px;
   font-weight: 300;
@@ -48,7 +54,7 @@
 }
 
 .home-content {
-  width: 70%;
+  width: 80%;
   margin-left: 200px;
   margin-top: 50px;
   font-size: 30px;
@@ -56,6 +62,11 @@
   font-weight: 300;
   letter-spacing: 5px;
   text-transform: uppercase;
+}
+
+.home-content-title {
+  border-top: 1px solid paleturquoise;
+  width: 25%;
 }
 
 .home-content-text {
@@ -67,8 +78,12 @@
   color: #aaaaaa;
 }
 
-.home-content-text a {
+.home-content-text.dark {
   color: white;
+}
+
+.home-content-text a {
+  color: paleturquoise;
   text-decoration: none;
   font-weight: 300;
 }
@@ -103,21 +118,21 @@
 }
 
 .home-content-links a {
-  color: white;
+  color: paleturquoise;
 }
 
 .home-content-links a:hover {
-  color: lightblue;
+  color: paleturquoise;
   text-decoration: none;
 }
 
 .home-content-links a:active {
-  color: lightblue;
+  color: paleturquoise;
   text-decoration: none;
 }
 
 .home-content-links a:focus {
-  color: lightblue;
+  color: paleturquoise;
   text-decoration: none;
 }
 
@@ -127,6 +142,11 @@
 
 
 @media only screen and (max-width: 1000px) {
+
+  .image-container {
+    width: 100%;
+  }
+
   .home-image {
     margin: auto;
     height: 250px;
@@ -142,6 +162,8 @@
 
   .home-content {
     width: 100%;
+    margin-left: 0;
+    padding: 0 30px;
   }
 
 }
