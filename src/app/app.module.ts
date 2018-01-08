@@ -2,7 +2,6 @@ import {BrowserModule} from '@angular/platform-browser';
 import {NgModule} from '@angular/core';
 
 import {AppComponent} from './app.component';
-import {IaHeaderComponent} from './ia-header/ia-header.component';
 import {IaContentComponent} from './ia-content/ia-content.component';
 import {B1PageComponent} from './pages/B/b1-page/b1-page.component';
 import {AppRoutingModule} from './app-routing-module/app-routing-module.module';
@@ -19,7 +18,6 @@ import {B7PageComponent} from './pages/B/b7-page/b7-page.component';
 @NgModule({
   declarations: [
     AppComponent,
-    IaHeaderComponent,
     IaContentComponent,
     B1PageComponent,
     HomeComponent,

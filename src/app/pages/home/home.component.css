@@ -1,0 +1,203 @@
+.home-container {
+  position: relative;
+  margin: 0 auto;
+  padding: 100px 0;
+  background: linear-gradient(0deg, grey, black 60%);
+  height: auto;
+}
+
+.home-header {
+  display: flex;
+}
+
+.image-container {
+  width: 50%;
+  text-align: center;
+}
+
+.home-image {
+  object-fit: cover;
+  height: 400px;
+  width: auto;
+}
+
+.home-title {
+  margin: auto 0;
+  position: relative;
+  font-size: 32px;
+  font-weight: 300;
+  color: #DEE3E2;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.home-description {
+  margin: 0;
+  padding-top: 10px;
+  letter-spacing: 2.5px;
+  text-transform: none;
+  font-weight: 100;
+  font-size: 24px;
+  color: #aaaaaa;
+}
+
+.home-list {
+  list-style: none;
+  margin: 0;
+  padding-top: 50px;
+  letter-spacing: 1px;
+  text-transform: none;
+  font-weight: 100;
+  font-size: 20px;
+  color: #aaaaaa;
+}
+
+.home-content {
+  margin: 100px auto;
+  display: flex;
+  width: 80%;
+  font-size: 30px;
+  color: #DEE3E2;
+  font-weight: 300;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.home-content-title {
+  width: 50%;
+}
+
+
+.home-content-text {
+  width: 100%;
+  text-align: left;
+  text-transform: none;
+  letter-spacing: 1px;
+  font-weight: 100;
+  font-size: 20px;
+  color: #aaaaaa;
+}
+
+.home-content-text.dark {
+  color: white;
+}
+
+.home-content-text a {
+  color: paleturquoise;
+  text-decoration: none;
+  font-weight: 300;
+}
+
+.home-content-list {
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  padding-top: 20px;
+  color: #DEE3E2;
+}
+
+.home-content-li {
+  width: 33.3%;
+  text-align: center;
+  margin-right: 10px;
+  padding: 20px;
+  border: 1px dotted #DEE3E2;
+  border-radius: 20px;
+  font-size: 18px;
+  font-weight: 100;
+  letter-spacing: 0.5px;
+  text-transform: none;
+}
+
+.home-li-desc {
+ min-height: 60px;
+}
+
+.home-content-li.single-element {
+  margin: 0 auto;
+}
+
+.home-content-links {
+  position: relative;
+  height: 100%;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.home-content-links a {
+  padding-right: 20px;
+  color: paleturquoise;
+}
+
+.home-content-links a:hover {
+  color: paleturquoise;
+  text-decoration: none;
+}
+
+.home-content-links a:active {
+  color: paleturquoise;
+  text-decoration: none;
+}
+
+.home-content-links a:focus {
+  color: paleturquoise;
+  text-decoration: none;
+}
+
+.home-content-links a:visited {
+  text-decoration: none;
+}
+
+
+@media only screen and (max-width: 1200px) {
+
+  .home-container {
+    text-align: center;
+  }
+
+  .image-container {
+    width: 100%;
+  }
+
+  .home-image {
+    margin: auto;
+    height: 250px;
+  }
+
+  .home-header {
+    display: block;
+  }
+
+  .home-title {
+    margin: 50px 30px;
+  }
+
+  .home-content {
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin-left: 0;
+    padding: 0 30px;
+  }
+
+  .home-content-title {
+    width: 100%;
+  }
+
+  .home-content-text {
+    text-align: center;
+  }
+
+}
+
+@media only screen and (max-width: 700px) {
+  .home-content-list {
+    display: block;
+    padding: 0;
+  }
+
+  .home-content-li.single-element, .home-content-li {
+    width: 90%;
+    margin: 20px auto 0 auto;
+  }
+}
