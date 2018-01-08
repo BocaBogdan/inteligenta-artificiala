@@ -7,6 +7,7 @@ import {B1PageComponent} from './pages/B/b1-page/b1-page.component';
 import {AppRoutingModule} from './app-routing-module/app-routing-module.module';
 import {HomeComponent} from './pages/home/home.component';
 import {A1PageComponent} from './pages/A/a1-page/a1-page.component';
+import {A4PageComponent} from './pages/A/a4-page/a4-page.component';
 import {B2PageComponent} from './pages/B/b2-page/b2-page.component';
 import {B3PageComponent} from './pages/B/b3-page/b3-page.component';
 import {B4PageComponent} from './pages/B/b4-page/b4-page.component';
@@ -21,6 +22,7 @@ import {B7PageComponent} from './pages/B/b7-page/b7-page.component';
     B1PageComponent,
     HomeComponent,
     A1PageComponent,
+    A4PageComponent,
     B2PageComponent,
     B3PageComponent,
     B4PageComponent,
