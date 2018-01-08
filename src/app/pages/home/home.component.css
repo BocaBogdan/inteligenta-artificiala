@@ -23,7 +23,6 @@
 
 .home-title {
   margin: auto 0;
-  border-top: 1px solid paleturquoise;
   position: relative;
   font-size: 32px;
   font-weight: 300;
@@ -43,9 +42,9 @@
 }
 
 .home-list {
+  list-style: none;
   margin: 0;
   padding-top: 50px;
-  padding-left: 30px;
   letter-spacing: 1px;
   text-transform: none;
   font-weight: 100;
@@ -54,9 +53,9 @@
 }
 
 .home-content {
+  margin: 100px auto;
+  display: flex;
   width: 80%;
-  margin-left: 200px;
-  margin-top: 50px;
   font-size: 30px;
   color: #DEE3E2;
   font-weight: 300;
@@ -65,13 +64,14 @@
 }
 
 .home-content-title {
-  border-top: 1px solid paleturquoise;
-  width: 25%;
+  width: 50%;
 }
 
+
 .home-content-text {
+  width: 100%;
+  text-align: left;
   text-transform: none;
-  padding-top: 10px;
   letter-spacing: 1px;
   font-weight: 100;
   font-size: 20px;
@@ -89,9 +89,11 @@
 }
 
 .home-content-list {
-  width: 100%;
+  margin: 0 auto;
+  width: 80%;
   display: flex;
   padding-top: 20px;
+  color: #DEE3E2;
 }
 
 .home-content-li {
@@ -99,11 +101,16 @@
   text-align: center;
   margin-right: 10px;
   padding: 20px;
-  border: 1px dotted #aaaaaa;
+  border: 1px dotted #DEE3E2;
+  border-radius: 20px;
   font-size: 18px;
   font-weight: 100;
   letter-spacing: 0.5px;
   text-transform: none;
+}
+
+.home-li-desc {
+ min-height: 60px;
 }
 
 .home-content-li.single-element {
@@ -111,13 +118,14 @@
 }
 
 .home-content-links {
-  font-size: 24px;
-  font-weight: 300;
   position: relative;
-  bottom: 0;
+  height: 100%;
+  font-size: 30px;
+  font-weight: 300;
 }
 
 .home-content-links a {
+  padding-right: 20px;
   color: paleturquoise;
 }
 
@@ -141,7 +149,11 @@
 }
 
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1200px) {
+
+  .home-container {
+    text-align: center;
+  }
 
   .image-container {
     width: 100%;
@@ -161,9 +173,31 @@
   }
 
   .home-content {
+    text-align: center;
+    display: block;
     width: 100%;
     margin-left: 0;
     padding: 0 30px;
   }
 
+  .home-content-title {
+    width: 100%;
+  }
+
+  .home-content-text {
+    text-align: center;
+  }
+
+}
+
+@media only screen and (max-width: 700px) {
+  .home-content-list {
+    display: block;
+    padding: 0;
+  }
+
+  .home-content-li.single-element, .home-content-li {
+    width: 90%;
+    margin: 20px auto 0 auto;
+  }
 }
