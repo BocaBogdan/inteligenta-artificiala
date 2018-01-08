@@ -7,9 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class B2PageComponent implements OnInit {
 
-  constructor() { }
+  constructor() {
+    this.scrollUp();
+  }
 
   ngOnInit() {
   }
 
+  private scrollUp() {
+    window.scrollTo(0, 0);
+  }
 }
