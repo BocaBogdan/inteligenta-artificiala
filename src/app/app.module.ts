@@ -14,6 +14,7 @@ import {B4PageComponent} from './pages/B/b4-page/b4-page.component';
 import {B5PageComponent} from './pages/B/b5-page/b5-page.component';
 import {B6PageComponent} from './pages/B/b6-page/b6-page.component';
 import {B7PageComponent} from './pages/B/b7-page/b7-page.component';
+import {A5PageComponent} from './pages/A/a5-page/a5-page.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import {B7PageComponent} from './pages/B/b7-page/b7-page.component';
     B4PageComponent,
     B5PageComponent,
     B6PageComponent,
-    B7PageComponent
+    B7PageComponent,
+    A5PageComponent
   ],
   imports: [
     BrowserModule,
