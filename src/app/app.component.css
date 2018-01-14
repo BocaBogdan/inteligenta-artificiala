@@ -1,1 +1,75 @@
 
+.page-container {
+  height: auto;
+  background-color: #FAFAFA;
+  padding: 100px 50px;
+}
+
+.page-title {
+  text-align: center;
+  position: relative;
+  font-size: 32px;
+  font-weight: 300;
+  color: black;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.page-subtitle {
+  text-align: center;
+  padding-top: 10px;
+  letter-spacing: 2px;
+  font-weight: 100;
+  font-size: 24px;
+  color: gray;
+}
+
+.page-content {
+  width: 50%;
+  margin: 50px auto;
+  border-top: 1px solid #aaaaaa;
+  border-bottom: 1px solid #aaaaaa;
+  background-color: white;
+  padding: 20px 0;
+}
+
+.page-items-container {
+  padding: 10px 0;
+  margin: 0 20px;
+  border-bottom: 1px dotted #aaaaaa;
+}
+
+.page-items-container:last-of-type {
+  border-bottom: none;
+}
+
+.item-info-title {
+  padding: 8px 0;
+  letter-spacing: 1px;
+  text-transform: none;
+  font-weight: 300;
+  font-size: 20px;
+  color: black;
+}
+
+.item-info span {
+  font-weight: 300;
+}
+
+.item-info {
+  font-size: 16px;
+  padding: 5px 0;
+}
+
+
+@media only screen and (max-width: 1200px) {
+  .page-content {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .page-content {
+    width: 100%;
+  }
+}
