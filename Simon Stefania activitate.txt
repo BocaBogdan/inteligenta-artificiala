@@ -1,0 +1,4 @@
+- am adaugat informatiile referitoare la grupa mea, responsabilitatea
+fiecarui submodul, link-urile catre repo-urile de pe github, mebrii si coordonatorii
+- am contribuit la pagina web lucrand la design-ul acesteia, astfel incat sa aiba un impact vizual
+mai frumos
