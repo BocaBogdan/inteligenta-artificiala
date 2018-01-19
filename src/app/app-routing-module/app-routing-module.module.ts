@@ -12,6 +12,7 @@ import { B5PageComponent } from '../pages/B/b5-page/b5-page.component';
 import { B6PageComponent } from '../pages/B/b6-page/b6-page.component';
 import { B7PageComponent } from '../pages/B/b7-page/b7-page.component';
 import { A5PageComponent } from '../pages/A/a5-page/a5-page.component';
+import { A6PageComponent } from '../pages/A/a6-page/a6-page.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
@@ -24,7 +25,8 @@ const routes: Routes = [
   { path: 'b5', component: B5PageComponent },
   { path: 'b6', component: B6PageComponent },
   { path: 'b7', component: B7PageComponent },
-  { path: 'a5', component: A5PageComponent }
+  { path: 'a5', component: A5PageComponent },
+  { path: 'a6', component: A6PageComponent }
 ];
 
 @NgModule({
